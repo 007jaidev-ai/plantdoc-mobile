@@ -1,0 +1,12 @@
+# Core inference dependencies (mobile export pipeline runs on desktop)
+torch>=2.4
+torchvision>=0.19
+timm>=1.0.9,<2
+huggingface_hub>=0.24
+opencv-python-headless>=4.9
+scikit-fuzzy>=0.5
+scikit-learn>=1.4
+pillow>=10.0
+pillow-heif>=0.16
+numpy>=1.26
+python-dotenv>=1.0

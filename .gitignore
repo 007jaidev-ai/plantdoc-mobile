@@ -1,0 +1,22 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+data/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+*.pdf
+experiments/cache/
+# MLflow tracking and artifacts
+mlruns/
+mlartifacts/
+*.sqlite
+mlflow.db
+.trash/
+
+.claude/
+Screenshot*.png
+experiments/mlflow_leaderboard.csv
+experiments/duplicates_check.json
